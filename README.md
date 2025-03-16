@@ -2,7 +2,7 @@
 
 ## 🏡 Sobre o Projeto
 
-O **Viznn** é uma plataforma inovadora que conecta moradores de condomínios e usuários em regiões específicas para compra, venda e oferta de serviços de forma prática e segura. Nosso objetivo é fortalecer a economia local e criar um ambiente confiável para transações entre vizinhos e comunidades próximas.
+O **Vizinn** é uma plataforma inovadora que conecta moradores de condomínios e usuários em regiões específicas para compra, venda e oferta de serviços de forma prática e segura. Nosso objetivo é fortalecer a economia local e criar um ambiente confiável para transações entre vizinhos e comunidades próximas.
 
 ## 🚀 Foco Inicial
 
