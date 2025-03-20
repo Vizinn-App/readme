@@ -6,7 +6,7 @@ O **Vizinn** é uma plataforma inovadora que conecta moradores de condomínios e
 
 ## 🚀 Foco Inicial
 
-Lançamento no estado do Rio grande do Norte. 
+Lançamento no Nordeste do Brasil 
 O usuário poderá definir a área de interesse, permitindo transações dentro de seu condomínio ou em locais estratégicos, como universidades, centros comerciais e bairros específicos.
 
 ## 📌 Funcionalidades Principais
