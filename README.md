@@ -112,3 +112,33 @@ Sistema de Denúncias: Opção para reportar anúncios ou usuários suspeitos.
 Regras básicas: Termos de uso visíveis e aceitos no cadastro.
 Bloqueio de usuários: Moderadores podem suspender perfis problemáticos.
 🔧 Tecnologias sugeridas: Firebase Moderation, sistema interno de denúncias para moderação manual.
+
+Plano de Assinatura no MVP
+✅ 1. Modelo de Assinatura
+Usuário Gratuito:
+
+Pode postar até 3 anúncios simultâneos.
+Cada anúncio pode conter no máximo 2 imagens.
+Acesso ao marketplace e chat normalmente.
+Usuário Premium (Pago):
+
+Anúncios ilimitados.
+Pode adicionar mais de 2 imagens por anúncio.
+Possibilidade de destacar anúncios gratuitamente (X vezes por mês).
+Prioridade no suporte e futuras funcionalidades exclusivas.
+✅ 2. Implementação da Assinatura
+📌 Funcionalidades:
+
+Tela de assinatura com detalhes dos benefícios.
+Sistema de pagamento integrado (Stripe, Mercado Pago ou App Store/Google Play).
+Controle de planos no perfil do usuário.
+Alerta quando o usuário gratuito atingir o limite de anúncios ou imagens.
+🔧 Tecnologias sugeridas:
+
+Stripe / Mercado Pago (pagamentos recorrentes).
+Firebase Firestore para armazenar o status da assinatura.
+Cloud Functions para gerenciar permissões de usuários pagos/gratuitos.
+✅ 3. Experiência do Usuário
+Ao tentar criar um 4º anúncio, um pop-up oferece o upgrade para o plano premium.
+Ao tentar adicionar mais de 2 imagens, uma mensagem alerta sobre a limitação.
+Página de “Meus Anúncios” mostrando a contagem de anúncios ativos.
