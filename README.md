@@ -58,87 +58,109 @@ Se você deseja apoiar essa iniciativa ou fazer parte do projeto, entre em conta
 
 ---
 
-Vamos juntos construir o futuro do comércio hiperlocal! 🚀
+# Funcionalidades Essenciais do MVP  
 
-Funcionalidades Essenciais do MVP
-✅ 1. Cadastro e Login
-🔹 Objetivo: Garantir que apenas moradores ou usuários da região tenham acesso à plataforma.
+## ✅ 1. Cadastro e Login  
+🔹 **Objetivo:** Garantir que apenas moradores ou usuários da região tenham acesso à plataforma.  
 
-📌 Funcionalidades:
+### 📌 Funcionalidades:  
+- Cadastro por e-mail e senha ou login com Google/Facebook.  
+- Validação via código SMS/e-mail para garantir a identidade do usuário.  
+- Possibilidade de confirmar residência via código do condomínio (caso aplicável).  
+- Perfil básico do usuário (nome, foto, localização e breve descrição).  
 
-Cadastro por e-mail e senha ou login com Google/Facebook.
-Validação via código SMS/e-mail para garantir a identidade do usuário.
-Possibilidade de confirmar residência via código do condomínio (caso aplicável).
-Perfil básico do usuário (nome, foto, localização e breve descrição).
-🔧 Tecnologias sugeridas: Firebase Authentication, OAuth (para login social), Twilio (para SMS).
+### 🔧 Tecnologias sugeridas:  
+Firebase Authentication, OAuth (para login social), Twilio (para SMS).  
 
-✅ 2. Marketplace Hiperlocal
-🔹 Objetivo: Permitir que moradores comprem e vendam produtos/serviços entre si de forma prática.
+---
 
-📌 Funcionalidades:
+## ✅ 2. Marketplace Hiperlocal  
+🔹 **Objetivo:** Permitir que moradores comprem e vendam produtos/serviços entre si de forma prática.  
 
-Criar anúncios com título, descrição, preço e fotos.
-Seleção de categoria (ex.: Eletrônicos, Serviços, Móveis, Alimentação, etc.).
-Visualização de anúncios em um feed organizado por localização e categoria.
-Opção de marcar um item como "Vendido" para evitar anúncios inativos.
-🔧 Tecnologias sugeridas: Firebase Firestore, PostgreSQL/MongoDB (armazenamento), Cloudinary/Firebase Storage (imagens).
+### 📌 Funcionalidades:  
+- Criar anúncios com título, descrição, preço e fotos.  
+- Seleção de categoria (ex.: Eletrônicos, Serviços, Móveis, Alimentação, etc.).  
+- Visualização de anúncios em um feed organizado por localização e categoria.  
+- Opção de marcar um item como "Vendido" para evitar anúncios inativos.  
 
-✅ 3. Filtros de Localização Inteligente
-🔹 Objetivo: Permitir que os usuários encontrem produtos e serviços próximos a eles.
+### 🔧 Tecnologias sugeridas:  
+Firebase Firestore, PostgreSQL/MongoDB (armazenamento), Cloudinary/Firebase Storage (imagens).  
 
-📌 Funcionalidades:
+---
 
-Seleção manual da área de interesse (meu condomínio, bairros próximos, universidades, etc.).
-Filtragem por distância (ex.: até 2km, até 5km).
-Opção de buscar apenas dentro do condomínio do usuário.
-🔧 Tecnologias sugeridas: Google Maps API, GeoFire (para busca geolocalizada).
+## ✅ 3. Filtros de Localização Inteligente  
+🔹 **Objetivo:** Permitir que os usuários encontrem produtos e serviços próximos a eles.  
 
-✅ 4. Chat Interno entre Usuários
-🔹 Objetivo: Facilitar a comunicação entre compradores e vendedores diretamente no app.
+### 📌 Funcionalidades:  
+- Seleção manual da área de interesse (meu condomínio, bairros próximos, universidades, etc.).  
+- Filtragem por distância (ex.: até 2km, até 5km).  
+- Opção de buscar apenas dentro do condomínio do usuário.  
 
-📌 Funcionalidades:
+### 🔧 Tecnologias sugeridas:  
+Google Maps API, GeoFire (para busca geolocalizada).  
 
-Mensagens privadas entre usuários.
-Notificações push para novas mensagens.
-Indicação de mensagens lidas/não lidas.
-🔧 Tecnologias sugeridas: Firebase Firestore (mensagens em tempo real), Firebase Cloud Messaging (notificações push).
+---
 
-✅ 5. Moderação e Segurança
-🔹 Objetivo: Criar um ambiente seguro e confiável para os usuários.
+## ✅ 4. Chat Interno entre Usuários  
+🔹 **Objetivo:** Facilitar a comunicação entre compradores e vendedores diretamente no app.  
 
-📌 Funcionalidades:
+### 📌 Funcionalidades:  
+- Mensagens privadas entre usuários.  
+- Notificações push para novas mensagens.  
+- Indicação de mensagens lidas/não lidas.  
 
-Sistema de Denúncias: Opção para reportar anúncios ou usuários suspeitos.
-Regras básicas: Termos de uso visíveis e aceitos no cadastro.
-Bloqueio de usuários: Moderadores podem suspender perfis problemáticos.
-🔧 Tecnologias sugeridas: Firebase Moderation, sistema interno de denúncias para moderação manual.
+### 🔧 Tecnologias sugeridas:  
+Firebase Firestore (mensagens em tempo real), Firebase Cloud Messaging (notificações push).  
 
-Plano de Assinatura no MVP
-✅ 1. Modelo de Assinatura
-Usuário Gratuito:
+---
 
-Pode postar até 3 anúncios simultâneos.
-Cada anúncio pode conter no máximo 2 imagens.
-Acesso ao marketplace e chat normalmente.
-Usuário Premium (Pago):
+## ✅ 5. Moderação e Segurança  
+🔹 **Objetivo:** Criar um ambiente seguro e confiável para os usuários.  
 
-Anúncios ilimitados.
-Pode adicionar mais de 2 imagens por anúncio.
-Possibilidade de destacar anúncios gratuitamente (X vezes por mês).
-Prioridade no suporte e futuras funcionalidades exclusivas.
-✅ 2. Implementação da Assinatura
-📌 Funcionalidades:
+### 📌 Funcionalidades:  
+- **Sistema de Denúncias:** Opção para reportar anúncios ou usuários suspeitos.  
+- **Regras básicas:** Termos de uso visíveis e aceitos no cadastro.  
+- **Bloqueio de usuários:** Moderadores podem suspender perfis problemáticos.  
 
-Tela de assinatura com detalhes dos benefícios.
-Sistema de pagamento integrado (Stripe, Mercado Pago ou App Store/Google Play).
-Controle de planos no perfil do usuário.
-Alerta quando o usuário gratuito atingir o limite de anúncios ou imagens.
-🔧 Tecnologias sugeridas:
+### 🔧 Tecnologias sugeridas:  
+Firebase Moderation, sistema interno de denúncias para moderação manual.  
 
-Stripe / Mercado Pago (pagamentos recorrentes).
-Firebase Firestore para armazenar o status da assinatura.
-Cloud Functions para gerenciar permissões de usuários pagos/gratuitos.
-✅ 3. Experiência do Usuário
-Ao tentar criar um 4º anúncio, um pop-up oferece o upgrade para o plano premium.
-Ao tentar adicionar mais de 2 imagens, uma mensagem alerta sobre a limitação.
-Página de “Meus Anúncios” mostrando a contagem de anúncios ativos.
+---
+
+# Plano de Assinatura no MVP  
+
+## ✅ 1. Modelo de Assinatura  
+
+### **Usuário Gratuito:**  
+- Pode postar até **3 anúncios simultâneos**.  
+- Cada anúncio pode conter no máximo **2 imagens**.  
+- Acesso ao marketplace e chat normalmente.  
+
+### **Usuário Premium (Pago):**  
+- **Anúncios ilimitados**.  
+- Pode adicionar **mais de 2 imagens** por anúncio.  
+- Possibilidade de **destacar anúncios gratuitamente** (X vezes por mês).  
+- **Prioridade no suporte** e futuras funcionalidades exclusivas.  
+
+---
+
+## ✅ 2. Implementação da Assinatura  
+
+### 📌 Funcionalidades:  
+- Tela de assinatura com detalhes dos benefícios.  
+- Sistema de pagamento integrado (**Stripe, Mercado Pago ou App Store/Google Play**).  
+- Controle de planos no perfil do usuário.  
+- Alerta quando o usuário gratuito atingir o limite de anúncios ou imagens.  
+
+### 🔧 Tecnologias sugeridas:  
+- **Stripe / Mercado Pago** (pagamentos recorrentes).  
+- **Firebase Firestore** para armazenar o status da assinatura.  
+- **Cloud Functions** para gerenciar permissões de usuários pagos/gratuitos.  
+
+---
+
+## ✅ 3. Experiência do Usuário  
+- **Ao tentar criar um 4º anúncio**, um pop-up oferece o upgrade para o plano premium.  
+- **Ao tentar adicionar mais de 2 imagens**, uma mensagem alerta sobre a limitação.  
+- **Página de “Meus Anúncios”** mostrando a contagem de anúncios ativos.  
+
